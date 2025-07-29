@@ -1,0 +1,23 @@
+#title {
+    text-align: center;
+}
+
+#division {
+    text-align: center;
+}
+
+.buttons {
+    transition: background-color 0.2s;
+    padding: 10px 10px;
+    background-color: blueviolet;
+}
+
+.buttons:hover {
+    background-color: blue;
+}
+
+#num {
+    display: block;
+    font-size: 10em;
+    text-align: center;
+}

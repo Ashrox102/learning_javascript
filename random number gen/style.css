@@ -1,0 +1,30 @@
+#num {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
+
+.boxes {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#submit {
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: blueviolet;
+    transition: background-color 0.2s;
+}
+
+#submit:hover {
+    background-color: brown;
+}
+
+#centre {
+    border: 1em solid saddlebrown;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+}
