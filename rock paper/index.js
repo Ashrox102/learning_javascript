@@ -7,7 +7,7 @@ function compute() {
     computer = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
     console.log("computer value - ", computer);
     sum = user - computer;
-    document.getElementById("computer").textContent = ("computer chose ", items[computer - 1]);
+    document.getElementById("computer").textContent = (items[computer - 1]);
 }
 
 function answer() {
@@ -32,7 +32,7 @@ document.getElementById("paper").onclick = function () {
     compute();
     answer();
 }
-document.getElementById("scissors").onclick = function () {
+document.getElementById("scissor").onclick = function () {
     user = 3;
     compute();
     answer();
